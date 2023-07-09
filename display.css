@@ -1,0 +1,41 @@
+
+*{      /*using this the page does not takes any by default space like murgin and podding in whole page */
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin:25px;
+    display: inline; /* note : when we applies display inline it doesnot applies margin top and margin bottom its dowback*/
+/* to remove this drowback we uses desplay property inline-block*/
+
+display: inline-block; /*now we can set its width and height also we can set margin */
+
+
+}
+button{
+    background-color: beige;
+}
+
+/*by changing its display property we can make element to inline or block elemetn */
+
+
+
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: aqua;
+    /* display: none; using this we can remove an element from webpage but space also not occupies */
+
+    visibility: hidden;
+
+}
+#div3{
+    background-color: blueviolet;
+    background-color: rgba(111,000,23,0.8);
+}
