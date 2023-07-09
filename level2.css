@@ -1,0 +1,89 @@
+
+#heading_topic{
+    text-align: center;
+    font-size: 76px;
+    text-decoration: wavy underline;
+    text-transform: capitalize;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-style: solid;        /** using this property we can do same things as we was do with the text-decoration property
+                                but here we are performing that with border*/
+    /* border-style: dashed;
+    border-color: aqua;
+    text-align: center;*using this property we can center text only based on their parent not based on web page */
+
+    /** border storthand when wee uses our borders width style and color in one property is called shorthand*/
+    border:3px dotted yellow;
+
+    /* border radius this property used to round the corners of an elements outer border edge  */
+
+    /* border-radius: 10px;
+
+    border-radius: 50%; */
+    
+}
+h2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(148, 220, 196);
+}
+
+#padd{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 2px dashed green;
+    border-radius:0;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+
+    /* shorthand for padding
+    this will be in clockwise direction
+    means 
+    top , right, bottom ,left
+
+    when we gives three values means
+    padding:10px  30px 40px; then top right+legt bottom
+    
+    when we gives only 2 values then 
+     padding:10px   40px; first indicates top+bottom second left+right
+    */
+
+    padding:10px  20px 30px 40px;
+
+}
+
+#div1{
+    margin-top: 20px;
+}
+
+#div2{
+    margin-right: 25px;
+
+}
+
+#div3{
+    margin-bottom: 20px;
+}
+#div4{
+    margin-left: 25px;
+    margin :25px 40px 80px 160px;
+}
+
+/*
+practis set 3 create a div height and width of 100px set its background color to green and border radios to 50%
+*/
+#pset3{
+    width:100px;
+    height:100px;
+    border-radius: 50% ;
+    background-color: #00ff00;
+    
+}

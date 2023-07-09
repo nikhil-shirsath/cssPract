@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 100px;
+}
+button{
+    background-color: #f08804;
+    border-radius: 0 10px  10px 0;
+    border: 0;
+}
+input{
+    border-radius: 10px 0 0 10px;
+    margin-right: 0;
+}

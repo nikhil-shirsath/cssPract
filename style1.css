@@ -1,0 +1,216 @@
+/**
+this is comment statement fot css 
+
+selectors
+========
+
+this are the first elemtnent in the css which is used to tell that 
+on which element we have to apply styling .
+
+1> universal selector 
+*{
+}
+
+2>element selector
+h1{
+
+}
+
+4. id selector
+#idname {
+
+}
+
+5. class selector
+
+.classname{
+
+}
+*/
+/* 
+*{
+    background-color: aliceblue;
+} */
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color:aqua; /**forgrount color*/
+}
+
+h1{
+    color: blueviolet; /** most recent have figher provority*/
+}
+p{
+    color:#00ff00;
+}
+
+ul{
+    color: #1ad3e7;
+}
+
+#unorderlist{
+    color:chocolate;  /** id should be unique same id to multiple elemements will be work but bad practice */
+}
+
+.note{
+    color:crimson;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#box{
+    background-color:  #0000ff;
+}
+
+.heading{
+    color:red;
+}
+button{
+    background-color: #00ff00;
+}
+
+/**
+align property changes its position based on its parent size .
+aligment does not change based on whole webpage .
+
+values in css3 when we applies some lanuages on the web page which are starts with backwords
+for them css3 start new values start and end.
+
+
+
+*/
+
+p{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+}
+
+/**
+text decoration this property is used to mark a line on the text page
+
+values are underline , overline , line-through
+
+
+most of the time text-decoration property is used to remove the underline from the 
+anchor links.
+*/
+
+#decoration{
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration:double;
+}
+
+a{
+    text-decoration: none;
+    text-decoration: #971a5f  wavy underline;
+}
+
+ul {
+    text-decoration: none;
+}
+
+/**
+
+font-wight : this property tells us how much dark or light our containt is .
+
+lightest value is 100 
+darkest value is 900
+bold value is 400
+
+*/
+
+#head1{
+    font-weight: bold;
+    font-weight: 100;
+}
+
+
+#head2{
+    font-weight: bolder;
+    font-weight: 300;
+}
+#head3{
+    font-weight: normal;
+    font-weight: 600;
+}
+#head4{
+    font-weight: lighter;
+    font-weight: 900;
+}
+
+/**
+font-family  : which defines which type of font is this we can select diffrent families of the text
+*/
+p{
+    font-family: 'Times New Roman', Times, serif; /**follback font familes */
+}
+
+/**
+units in css  : used to mesure in a size
+absolute 
+pixels (px)
+
+96px= 1inch
+font-size :2px;
+
+
+relative 
+
+*/
+
+#size{
+    font-size: 96px;
+}
+
+#lsize{
+    font-size: 472.704px;
+   
+}
+
+/**
+line-hight : this property decieds that who much hight shold be our line 
+
+using this property we can add space between 2 lines  
+
+*/
+#hight{
+    line-height: 20px;
+}
+
+/**
+text-transform : this property is used to change the case of the text 
+like uppercase , lowercase ,capitalize or none
+*/
+
+#hight{
+    text-transform: capitalize;/** every words first letter will be capitalized*/
+    text-transform: uppercase;
+    text-transform: inherit;
+}
+
+/**
+practice set 2
+*/
+
+#centralized{
+    text-align:  center;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
