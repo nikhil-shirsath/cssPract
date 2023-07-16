@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+/*
+
+animation : changing style to an element at some perticular events such as 
+such as on hover or onclick
+
+using animation property we can assign multiple values.
+
+@keyframes  duration  \ easing-funtion |deley | iterantion-count|direction  |fill-state |none
+
+*/
+
+
+.container{
+width: 1000px;
+height:1200px;
+border: 2px solid black;
+background-color: bisque;
+
+}
+
+.box{
+    width:100px;
+    height:100px;
+    border: 2px solid yellow;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 5%;
+    display: inline-block;
+    position: relative; /* tp move container freely*/
+    animation-name: rightmovement; /*name of the animation */
+    animation-delay: 2s; /*waiting time for animation happen*/
+    animation-duration: 5s; /*ammount of time for animation */
+    animation-iteration-count: 2; /* how much time iteration should be happen */
+    animation-timing-function: cubic-bezier(0, 0, 0.59, 0.59); /* to control the speed of the animation */
+    animation-direction: alternate;  /* using this we can give the path of the animation means source to destination or destination to source */
+
+    animation-fill-mode: both; /* to stop the animation at the perticular part*/
+
+}
+
+@keyframes rightmovement {      /*values which are required for animation */
+ 
+    from{
+        top:0;
+        right: 0;
+    }
+    to{
+        top:0;
+        left: 700px;
+       }
+}
